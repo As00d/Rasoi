@@ -1,5 +1,14 @@
+:root {
+  --background-bg: #242529;
+  --button-bg: #268827;
+  --button-text: #ffffff;
+  --primary-text: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: var(--background-bg);
+  color: var(--primary-text);
 }
