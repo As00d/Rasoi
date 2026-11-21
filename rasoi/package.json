@@ -7,7 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint --max-warnings=0 --fix",
+    "format": "prettier --write .",
+    "format:file": "prettier --write",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "check:precommit": "lint-staged"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -23,6 +28,9 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^17.13.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.1",
+    "prettier": "^3.10.1",
     "vite": "^8.3.6"
   }
 }
