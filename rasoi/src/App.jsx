@@ -1,5 +1,12 @@
+import Navbar from "./components/Navbar";
+import "./index.css";
+
 const App = () => {
-  return <div>Rasoi</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
