@@ -1,14 +1,29 @@
-import { Link } from "react-router";
-import "./Navbar.css";
+import {Link} from 'react-router'
+// import {FaFire} from 'react-icons/fa'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <Link to="/menu">Menu</Link>
-      <Link to="/services">Services</Link>
-      <Link to="/contact">Contact</Link>
+    <div className="navbar-container">
+      <div className="navbar-logo-container">
+        <div className="navbar-logo">
+          {/* <FaFire size={26} /> */}
+          Rasoi
+        </div>
+      </div>
+      <div className="navbar-nav-container">
+        <Link to="/menu" className="navbar-nav-link">
+          Menu
+        </Link>
+        <Link to="/services" className="navbar-nav-link">
+          Services
+        </Link>
+        <Link to="/contact" className="navbar-nav-link">
+          Contact
+        </Link>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

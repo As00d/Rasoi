@@ -1,4 +1,5 @@
-.container {
+.root-container {
   border: 1px solid white;
   height: 100vh;
+  padding: 0 100px;
 }
