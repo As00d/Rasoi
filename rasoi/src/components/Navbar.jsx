@@ -1,5 +1,5 @@
 import {Link} from 'react-router'
-// import {FaFire} from 'react-icons/fa'
+import {FaFire} from 'react-icons/fa'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="navbar-logo-container">
         <div className="navbar-logo">
-          {/* <FaFire size={26} /> */}
+          <FaFire size={26} />
           Rasoi
         </div>
       </div>
