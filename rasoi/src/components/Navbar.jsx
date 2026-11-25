@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="navbar-logo-container">
-        <div className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <FaFire size={26} />
           Rasoi
-        </div>
+        </Link>
       </div>
       <div className="navbar-nav-container">
         <Link to="/menu" className="navbar-nav-link">

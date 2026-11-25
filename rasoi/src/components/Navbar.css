@@ -28,6 +28,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 2px;
+  text-decoration: none;
 }
 
 .navbar-nav-link {
